@@ -1,0 +1,20 @@
+{
+  "name": "shirataman",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "dependencies": {
+    "discord.js": "^14.15.0",
+    "@discordjs/voice": "^0.17.0",
+    "play-dl": "^1.9.7",
+    "dotenv": "^16.0.0"
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "tsx": "^4.7.0"
+  }
+}
